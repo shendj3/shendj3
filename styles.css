@@ -1,0 +1,96 @@
+       body {    
+            font-family: Arial, sans-serif;     /* 设置网页的字体 */  
+            font-size: 20px; /* 可以根据需要字体调整这个值 */  
+            letter-spacing:3px; /* 可以根据需要字距调整这个值 */
+            line-height: 1.5; /* 设置行距为字体大小的1.5倍 */ 
+            margin: 0;    /* 设置网页的外边距为0 */  
+            padding: 0;    /* 设置网页的内边距为0 */  
+            background-color: #A0CEE1;    /* 设置网页的背景颜色 */  
+        }    
+        header {    
+            background-image: url('湛江美景/'); /* 图片文件路径 */  
+            background-size: cover;   /* 确保背景图片覆盖整个header区域，同时保持图片的宽高比 */  
+            background-repeat: no-repeat; /* 防止背景图片重复 */  
+            background-position: center; /* 将背景图片居中显示 */  
+            color: #00A1D6;    /* 设置页眉的文字颜色 */  
+            padding: 1rem 0; /* 设置页眉的内边距 */  
+            text-align: center; /* 设置页眉的文字居中对齐 */  
+        }    
+        .container {    
+            max-width: 1200px; /* 设置容器的最大宽度 */  
+            margin: 0 auto;    /* 设置容器的外边距，使其水平居中 */  
+            padding: 0 1rem; /* 设置容器的内边距 */  
+        }    
+.indented-paragraph {  
+        text-indent: 2em;  
+    }  
+        nav table {    
+            width: 100%;    /* 设置导航栏表格的宽度为100% */  
+            margin: 0 auto;    /* 设置表格的外边距，但由于设置了宽度为100%，此属性在此处无效 */  
+            border-collapse: collapse; /* 合并表格的边框 */  
+            background-color: #444; /* 设置表格的背景颜色 */  
+        }    
+        nav table, nav th, nav td {    
+            border: 1px solid #fff; /* 为表格、表头和单元格设置边框 */  
+        }    
+        nav th, nav td {    
+            padding: 15px; /* 设置表头和单元格的内边距 */  
+            text-align: center; /* 设置文字居中对齐 */  
+            color: #fff; /* 设置文字颜色 */  
+        }    
+        nav th, nav td{    
+            background-color: #4e91b6; /* 设置表头的背景颜色 */  
+        }    
+        /* 注意：原代码中nav td a的样式已移动到下面的a和a:hover中，因为这里只针对nav td a设置了颜色和下划线样式，这些可以全局应用 */  
+        main {    
+            padding: 2rem;     /* 设置主体的内边距 */  
+            max-width: 1200px;     /* 设置主体的最大宽度 */  
+            margin: 0 auto;     /* 设置主体的外边距，使其水平居中 */  
+            background-color: #fff;     /* 设置主体的背景颜色 */  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);     /* 设置主体的阴影效果 */  
+        }    
+        img {    
+            max-width: 1080px;     /* 设置图片的最大宽度为1080px */  
+            height: 720px;     /* 设置图片的高度为720px */  
+            display: block;    /* 设置图片为块级元素 */  
+            margin: 0 auto;     /* 设置图片的外边距，使其水平居中 */  
+        }    
+        a {    
+            color: #fff;    /* 设置链接的文字颜色 */  
+            text-decoration: none;     /* 移除链接的下划线 */  
+        }    
+        a:hover {    
+            text-decoration: underline;     /* 鼠标悬停在链接上时显示下划线 */  
+        }  
+.content-container {
+    display: none; /* 默认隐藏所有内容容器 */
+}
+body {
+  background-image: url("湛江美景/165952smivjiemv57o7i67.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* 外层大容器透明 */
+.container {
+    background: transparent !important;
+}
+/* 蓝色导航栏nav透明 */
+nav {
+    background: transparent !important;
+    border: none !important;
+}
+/* 里面每一块内容盒子透明（就是白色那块） */
+.content-container {
+    background: transparent !important;
+}
+/* main主体区域透明 */
+main {
+    background: transparent !important;
+}
+main p,main div{
+    color:#00A1D6;
+    font-weight:700;
+    text-shadow:0 0 3px #000,0 0 6px #000;
+}
